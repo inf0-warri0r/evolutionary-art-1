@@ -1,0 +1,53 @@
+evolutionary art generator
+============================
+
+this application generates images using neural network
+and a genetic algorithm. each pixel of the image is desided by
+the neural network and the network is trained using a genetic
+algorithm.
+
+first it generates 10 random sets of weights for 10 neural nets.
+then each net generate an image. each image is given a random marks 
+(0 - 100) or the user is asked to give a mark (0 - 100). then
+the next genartion is generated according to that marks.
+
+
+running the app
+-----------------
+
+you need to install 'python' and 'Tkinter' libraries to run the app.
+after installing them use command,
+
+python main.py
+
+to run the app. in the application gui you can use eather 'vote mode'
+or 'random mode' to run (check the vote mode check box for 'vote mode' and
+un check it to use 'random mode'). choose one and press 'start'. if you use
+random the app will run by itself. if you use 'vote mode' you have to write 
+your mark for each art in vote 'text box' and press 'vote' button to get to
+next image.
+
+more inf0
+----------
+
+author : tharindra galahena (inf0_warri0r)
+blog   : http://www.inf0warri0r.blogspot.com
+email  : tcg.galahena@gmail.com 
+
+
+License
+---------
+
+     Copyright 2013 Tharindra Galahena
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+* You should have received a copy of the GNU General Public License along with
+This program. If not, see http://www.gnu.org/licenses/.
+
